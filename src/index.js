@@ -16,18 +16,18 @@ const createProtoMagicObject = () => {
 
 var counter = 0;
 const incrementor = () => {
-	/*incrementor.toString = function(){
+	incrementor.toString = function(){
         return counter;
     };
     counter++;
-    return incrementor;*/
+    return incrementor;
 };
 
 counter = 0;
 const asyncIncrementor = () => {
-    return new Promise((resolve) => {
+/*    return new Promise((resolve) => {
 	resolve (counter++);	
-    });
+    });*/
 };
 
 const createIncrementer = () => {
