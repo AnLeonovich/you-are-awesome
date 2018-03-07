@@ -5,13 +5,13 @@ const createEnumerableProperty = (propertyName) => {
 };
 
 const createNotEnumerableProperty = (propertyName) => {
-   // return Symbol(propertyName);
+    return Symbol(propertyName);
 };
 
 const createProtoMagicObject = () => {
-	var magicObject = function(){};
-    magicObject.prototype = magicObject.__proto__;
-    return magicObject;
+    //var magicObject = function(){};
+    //magicObject.prototype = magicObject.__proto__;
+    //return magicObject;
 };
 
 var counter = 0;
