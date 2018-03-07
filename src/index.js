@@ -5,7 +5,7 @@ const createEnumerableProperty = (propertyName) => {
 };
 
 const createNotEnumerableProperty = (propertyName) => {
-    return Symbol(propertyName);
+   // return Symbol(propertyName);
 };
 
 const createProtoMagicObject = () => {
