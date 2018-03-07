@@ -9,18 +9,18 @@ const createNotEnumerableProperty = (propertyName) => {
 };
 
 const createProtoMagicObject = () => {
-    //var magicObject = function(){};
-    //magicObject.prototype = magicObject.__proto__;
-    //return magicObject;
+    var magicObject = function(){};
+    magicObject.prototype = magicObject.__proto__;
+    return magicObject;
 };
 
 var counter = 0;
 const incrementor = () => {
-	incrementor.toString = function(){
+	/*incrementor.toString = function(){
         return counter;
     };
     counter++;
-    return incrementor;
+    return incrementor;*/
 };
 
 counter = 0;
