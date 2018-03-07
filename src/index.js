@@ -25,9 +25,9 @@ const incrementor = () => {
 
 counter = 0;
 const asyncIncrementor = () => {
-/*    return new Promise((resolve) => {
+    return new Promise((resolve) => {
 	resolve (counter++);	
-    });*/
+    });
 };
 
 const createIncrementer = () => {
