@@ -23,7 +23,7 @@ const incrementor = () => {
     return incrementor;
 };
 
-counter = 1;
+counter = 0;
 const asyncIncrementor = () => {
     return new Promise((resolve) => {
 	resolve (counter++);	
